@@ -99,8 +99,9 @@ const mouseup = e => {
   background-color: #eee;
   position: absolute;
   z-index: 10;
+  transform: translate(-50%, -50%);
 }
 .split-pane-line:hover {
-  cursor: ew-resize;
+  cursor: col-resize;
 }
 </style>
